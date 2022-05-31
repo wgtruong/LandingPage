@@ -1,4 +1,5 @@
 body {
+    font: serif;
     display: flex;
     flex-direction: column;
 }
@@ -10,18 +11,28 @@ body {
 
 .content1Images {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
+}
+
+.HobbyImages {
+    width: 100%;
+    max-width: 175px;
+    border: 5px solid #feb8b8;
+}
+
+.QuoteImages {
+    width: 100%;
+    border: 5px solid #434343;
 }
 
 .header {
-    background: #feb8b8;
+    background: #9be1db;
     color: black;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
-
 }
 
 .left-header, .right-header {
@@ -43,6 +54,56 @@ body {
     color: black;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    padding: 35px;
+}
+
+.left-content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 25px;
+    max-width: 200px;
+}
+
+.AboutMe {
+    color: #018985;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.content2 {
+    text-align: center;
+}
+.content2title {
+    margin: 32px;
+    color: #d64e4e;
+    font-size: 72px;
+}
+
+.content2container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    color: #018985;
+    padding-bottom: 32px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    background: #9be1db;
+    color: black;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
 }
 
 a{
