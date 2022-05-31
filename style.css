@@ -11,7 +11,7 @@ body {
 
 .content1Images {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .HobbyImages {
@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 200px;
+    gap: 150px;
     padding: 35px;
 }
 
@@ -64,14 +64,20 @@ body {
     flex-direction: column;
     justify-content: center;
 
+    margin-top: -75px;
     gap: 25px;
-    max-width: 200px;
+    max-width: 300px;
+}
+
+.text-content1 {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .AboutMe {
     color: #018985;
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 72px;
+    font-weight: 900;
 }
 
 .content2 {
@@ -122,5 +128,8 @@ ul {
 }
 
 .logo {
-    font-size: 30px;
+    width: 100%;
+    max-width: 200px;
+    margin: -10px;
+
 }
